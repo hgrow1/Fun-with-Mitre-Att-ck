@@ -4,7 +4,7 @@ Data based on MITRE Att&ck Enterprise JSON https://attack.mitre.org/resources/wo
 
 JSON Data is parsed and analysed with Splunk. 
 
-Splunk TA coming soon. (Modular Input to ingest Data without the need of preprocessing, sourcetypes and all the things)
+Splunk TA coming soon. (Modular Input to ingest Data without the need of pre-processing, sourcetypes and all the things)
 
 ## Similar Work
 
