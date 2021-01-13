@@ -1,4 +1,17 @@
-# Mitre-Att-ck-Analytics
+# Fun with Mitre-Att&ck
+
+Data based on MITRE Att&ck Enterprise JSON https://attack.mitre.org/resources/working-with-attack/
+
+JSON Data is parsed and analysed with Splunk. 
+
+Splunk TA coming soon. (Modular Input to ingest Data without the need of preprocessing, sourcetypes and all the things)
+
+## Similar Work
+
+https://github.com/rabobank-cdc/DeTTECT
+https://docs.splunksecurityessentials.com/user/productionalize/operationalize_mitre_attack/
+
+
 ## MITRE Att&ck - Techniques per data source
 x_mitre_data_sources|count
 ------------ | -------------
