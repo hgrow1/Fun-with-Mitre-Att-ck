@@ -9,6 +9,7 @@ Splunk TA coming soon. (Modular Input to ingest Data without the need of preproc
 ## Similar Work
 
 https://github.com/rabobank-cdc/DeTTECT
+
 https://docs.splunksecurityessentials.com/user/productionalize/operationalize_mitre_attack/
 
 
