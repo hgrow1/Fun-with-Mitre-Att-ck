@@ -91,7 +91,7 @@ index=main sourcetype="mitre:enterprise_attack:json"
  | chart count by "x_mitre_data_sources{}" | sort - count
 ```
 
-## MITRE Att&ck - Aggregated Techniques covered by Sysmon
+## MITRE Att&ck - Techniques may covered by Sysmon
 
 ![test](https://github.com/hgrow1/Mitre-Att-ck-Analytics/blob/main/Aggregated%20Techniques%20covered%20by%20Sysmon.PNG)
 
