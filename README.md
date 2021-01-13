@@ -1,4 +1,12 @@
 # Mitre-Att-ck-Analytics
+## MITRE Att&ck - Techniques per data source
+![test](https://github.com/hgrow1/Mitre-Att-ck-Analytics/blob/main/Number%20of%20MITRE%20Att%26ck%20techniques%20per%20data%20source.PNG)
+
+```
+index=main sourcetype="mitre:enterprise_attack:json"
+ type="attack-pattern"
+ | chart count by "x_mitre_data_sources{}" | sort - count
+```
 
 ## MITRE Att&ck - Aggregated Techniques covered by Sysmon
 
