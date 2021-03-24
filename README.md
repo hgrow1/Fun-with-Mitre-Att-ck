@@ -86,7 +86,7 @@ Named Pipes|1
 ![test](https://github.com/hgrow1/Mitre-Att-ck-Analytics/blob/main/Number%20of%20MITRE%20Att%26ck%20techniques%20per%20data%20source.PNG)
 
 ```
-index=main sourcetype="mitre:enterprise_attack:json"
+sourcetype="mitre:enterprise_attack:json"
  type="attack-pattern"
  | chart count by "x_mitre_data_sources{}" | sort - count
 ```
@@ -96,7 +96,7 @@ index=main sourcetype="mitre:enterprise_attack:json"
 ![test](https://github.com/hgrow1/Mitre-Att-ck-Analytics/blob/main/Aggregated%20Techniques%20covered%20by%20Sysmon.PNG)
 
 ```
-index=main sourcetype="mitre:enterprise_attack:json"
+sourcetype="mitre:enterprise_attack:json"
  type="attack-pattern" 
 | stats count  by "x_mitre_data_sources{}" 
 | rename "x_mitre_data_sources{}" AS data_source 
